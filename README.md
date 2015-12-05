@@ -1,10 +1,10 @@
 # docker-nginx-php-fpm
 Nginx et PHP-FPM pour docker
+
 build
 
 ```
-docker build -t nginx github.com/upskaling/docker-nginx-php-fpm
-
+docker build -t nginx nginx
 ```
 
 run

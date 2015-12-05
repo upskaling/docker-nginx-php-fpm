@@ -9,6 +9,7 @@ chmod 755 /start.sh && \
 mkdir -p "/tmp/nginx/client-body"
 
 EXPOSE 80 443
+VOLUME ["/var/www","/etc/php","/etc/nginx"]
 
-# ENTRYPOINT ["/bin/bash", "/start.sh"]
-CMD ["/bin/bash", "/start.sh"]
+# ENTRYPOINT ["/bin/bash","/start.sh"]
+CMD ["/bin/bash","/start.sh"]
