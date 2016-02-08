@@ -1,4 +1,4 @@
-FROM alpine:3.1
+FROM alpine:latest
 MAINTAINER admin
 
 RUN apk --update add bash nginx git php-fpm php-sqlite3 php-curl php-gd php-cli php-json && \
